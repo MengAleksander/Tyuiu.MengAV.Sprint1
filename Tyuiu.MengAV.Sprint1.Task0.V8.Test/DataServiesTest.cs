@@ -10,6 +10,6 @@ namespace Tyuiu.MengAV.Sprint1.Task0.V8.Test
             DataServies ds = new DataServies();
             var res = ds.Calculate();
             Assert.Equal(1.875, res);
-        }
+        } 
     }
 }

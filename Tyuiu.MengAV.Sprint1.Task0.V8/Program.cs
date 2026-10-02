@@ -3,4 +3,4 @@
 DataServies ds = new DataServies();
 
 Console.WriteLine(ds.Calculate());
-Console.ReadKey();
+Console.ReadKey(); 
