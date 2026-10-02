@@ -1,7 +1,7 @@
 ﻿using Tyuiu.MengAV.Sprint1.Task7.V18.Lib;
 
-Console.WriteLine("Задание: 5");
-Console.WriteLine("Вариант: 6");
+Console.WriteLine("Задание: 7");
+Console.WriteLine("Вариант: 18");
 Console.WriteLine("Вполнил: Менг А. В.");
 Console.WriteLine("_________________________________________");
 
