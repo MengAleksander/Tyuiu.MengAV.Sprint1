@@ -1,5 +1,6 @@
 ﻿using Tyuiu.MengAV.Sprint1.Task1.V21.Lib;
 
+Console.WriteLine("Задание: 1");
 Console.WriteLine("Вариант: 21");
 Console.WriteLine("Вполнил: Менг А. В.");
 
