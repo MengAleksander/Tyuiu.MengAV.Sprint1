@@ -19,4 +19,4 @@ try
 catch (DivideByZeroException exception)
 {
     Console.WriteLine($"Ошибка: {exception.Message}");
-}
+} 
