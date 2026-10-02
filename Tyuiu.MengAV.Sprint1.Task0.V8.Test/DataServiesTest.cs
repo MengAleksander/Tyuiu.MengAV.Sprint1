@@ -2,12 +2,14 @@ using Tyuiu.MengAV.Sprint1.Task0.V8.Lib;
 
 namespace Tyuiu.MengAV.Sprint1.Task0.V8.Test
 {
-    public class UnitTest1
+    public class DataServiesTest
     {
         [Fact]
         public void Test1()
         {
-            Assert.Equal(1.25, DataServies.Calculates(10, 4, 2));
+            DataServies ds = new DataServies();
+            var res = ds.Calculate();
+            Assert.Equal(1.875, res);
         }
     }
 }
