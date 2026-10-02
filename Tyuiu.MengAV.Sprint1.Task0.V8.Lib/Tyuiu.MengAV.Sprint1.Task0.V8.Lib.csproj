@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\tyuiu.cources.programming.interfaces\tyuiu.cources.programming.interfaces.csproj" />
+    <Reference Include="tyuiu.cources.programming.interfaces">
+      <HintPath>..\..\tyuiu.cources.programming.interfaces-main\tyuiu.cources.programming.interfaces.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
