@@ -3,6 +3,8 @@
 double a = 15;
 double b = 2;
 double c = 4;
-double x = Class1.Calculate(a, b, c);
+double x = DataServies.Calculates(a, b, c);
+Console.WriteLine("Вариант 8");
+Console.WriteLine("Выполнил: Менг А. В.");
 Console.WriteLine($"{a} / {b} / {c} = {x}");
 Console.ReadKey();

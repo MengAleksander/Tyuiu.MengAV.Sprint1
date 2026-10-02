@@ -7,7 +7,7 @@ namespace Tyuiu.MengAV.Sprint1.Task0.V8.Test
         [Fact]
         public void Test1()
         {
-            Assert.Equal(1.25, Class1.Calculate(10, 4, 2));
+            Assert.Equal(1.25, DataServies.Calculates(10, 4, 2));
         }
     }
 }
