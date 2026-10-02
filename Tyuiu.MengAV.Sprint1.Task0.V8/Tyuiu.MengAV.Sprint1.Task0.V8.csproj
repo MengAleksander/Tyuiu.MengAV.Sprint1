@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\tyuiu.cources.programming.interfaces\tyuiu.cources.programming.interfaces.csproj" />
     <ProjectReference Include="..\Tyuiu.MengAV.Sprint1.Task0.V8.Lib\Tyuiu.MengAV.Sprint1.Task0.V8.Lib.csproj" />
   </ItemGroup>
 
