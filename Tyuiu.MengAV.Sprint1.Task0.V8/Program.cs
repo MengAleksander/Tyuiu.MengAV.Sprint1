@@ -17,4 +17,4 @@ foreach (var key in zam)
 
 Console.WriteLine(text);
 Console.WriteLine(ds.Calculate());
-Console.ReadKey(); 
+Console.ReadKey();
