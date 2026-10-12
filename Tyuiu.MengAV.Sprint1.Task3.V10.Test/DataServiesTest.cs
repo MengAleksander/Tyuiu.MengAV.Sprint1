@@ -4,26 +4,37 @@ namespace Tyuiu.MengAV.Sprint1.Task3.V10.Test
 {
     public class DataServiesTest
     {
+        DataServies ds = new DataServies();
         [Fact]
         public void Test1()
         {
-            decimal mon = 23.6457m;
+            string result = ds.NumberToMoney(23.6);
 
-            decimal res = DataServies.Number(mon);
-
-            Assert.Equal(23.646m, res);
+            Assert.Equal("23 руб. 60 коп.", result);
         }
 
         [Fact]
         public void Test2()
         {
-            decimal mon = 23.6m;
+            string result = ds.NumberToMoney(15);
 
-            int rub = DataServies.Rubles(mon);
-            int kop = DataServies.Kopecks(mon);
+            Assert.Equal("15 руб. 0 коп.", result);
+        }
 
-            Assert.Equal(23, rub);
-            Assert.Equal(60, kop);
+        [Fact]
+        public void Test3()
+        {
+            string result = ds.NumberToMoney(4.05);
+
+            Assert.Equal("4 руб. 5 коп.", result);
+        }
+
+        [Fact]
+        public void Test4()
+        {
+            string result = ds.NumberToMoney(1.999);
+
+            Assert.Equal("2 руб. 0 коп.", result);
         }
     }
 }

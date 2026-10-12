@@ -1,18 +1,38 @@
 ﻿using System.Globalization;
 using Tyuiu.MengAV.Sprint1.Task3.V10.Lib;
 
-Console.WriteLine("Задание: 3");
-Console.WriteLine("Вариант: 10");
-Console.WriteLine("Вполнил: Менг А. В.");
+DataServies ds = new DataServies();
+
+#region Шапка
+string text = File.ReadAllText(@"../../../../TXT.txt");
+
+Dictionary<string, string> zam = new Dictionary<string, string>
+{{"{{HZ}}", "3"},
+{"{{HV}}", "10"},
+{"{{TY}}", "Написать программу, которая запрашивает у пользователя исходные данные, выполняет указанные расчёты и печатает результат на экране."},
+{"{{TV}}", "Введите дробное число -> 23.6"}};
+
+foreach (var key in zam)
+{
+    text = text.Replace(key.Key, key.Value);
+}
+
+Console.WriteLine(text);
+#endregion
 
 Console.Write("Введите дробное число: ");
 
-string inp = Console.ReadLine().Replace(',', '.');
+string inp = Console.ReadLine().Trim().Replace(',', '.');
 
-decimal num = decimal.Parse(inp,CultureInfo.InvariantCulture);
-
-decimal mon = DataServies.Number(num);
-int rub = DataServies.Rubles(num);
-int kop = DataServies.Kopecks(num);
-
-Console.WriteLine($"{mon:F3} руб. — это " + $"{rub} руб. {kop:D2} коп.");
+if (double.TryParse(
+    inp,
+    NumberStyles.Float,
+    CultureInfo.InvariantCulture,
+    out double num))
+{
+    Console.WriteLine($"{num} руб. — это {ds.NumberToMoney(num)}");
+}
+else
+{
+    Console.WriteLine("Некорректное число.");
+}

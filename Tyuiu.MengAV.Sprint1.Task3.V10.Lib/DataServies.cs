@@ -1,26 +1,24 @@
-﻿namespace Tyuiu.MengAV.Sprint1.Task3.V10.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.MengAV.Sprint1.Task3.V10.Lib
 {
-    public class DataServies
+    public class DataServies : ISprint1Task3V10
     {
-        public static decimal Number(decimal num)
+        public string NumberToMoney(double number)
         {
-            return decimal.Round(num, 3);
-        }
+            decimal rounded = decimal.Round(
+        (decimal)number, 3, MidpointRounding.AwayFromZero);
 
-        public static int Rubles(decimal num)
-        {
-            decimal rub = Number(num);
+            long totalKopecks = decimal.ToInt64(
+                decimal.Round(rounded * 100, 0, MidpointRounding.AwayFromZero));
 
-            return (int)decimal.Truncate(rub);
-        }
+            string sign = totalKopecks < 0 ? "-" : "";
+            long absoluteKopecks = Math.Abs(totalKopecks);
 
-        public static int Kopecks(decimal num)
-        {
-            decimal rub = Number(num);
+            long rub = absoluteKopecks / 100;
+            long kop = absoluteKopecks % 100;
 
-            decimal kop = rub - decimal.Truncate(rub);
-
-            return (int)decimal.Round(kop * 100, 0);
+            return $"{sign}{rub} руб. {kop} коп.";
         }
     }
 }
