@@ -4,36 +4,30 @@ namespace Tyuiu.MengAV.Sprint1.Task5.V6.Test
 {
     public class DataServiesTest
     {
-        [Fact]
-        public void Ponidelnic()
-        {
-            int daynam = DataServies.DayNumber(1);
+        DataServies ds = new DataServies();
 
-            Assert.Equal(1, daynam);
+        [Fact]
+        public void ReturnsMonday()
+        {
+            Assert.Equal(1, ds.Calculate(1));
         }
 
         [Fact]
-        public void Voskresenie()
+        public void ReturnsSunday()
         {
-            int daynam = DataServies.DayNumber(7);
-
-            Assert.Equal(7, daynam);
+            Assert.Equal(7, ds.Calculate(7));
         }
 
         [Fact]
-        public void Vtoroi_Ponidelnic()
+        public void ReturnsMondayNew()
         {
-            int daynam = DataServies.DayNumber(8);
-
-            Assert.Equal(1, daynam);
+            Assert.Equal(1, ds.Calculate(8));
         }
 
         [Fact]
-        public void Error()
+        public void ThrowsException()
         {
-            Assert.Throws<ArgumentOutOfRangeException>(
-                () => DataServies.DayNumber(366)
-            );
+            Assert.Throws<ArgumentOutOfRangeException>(() => ds.Calculate(366));
         }
     }
 }
