@@ -4,13 +4,14 @@ namespace Tyuiu.MengAV.Sprint1.Task7.V18.Test
 {
     public class DataServiesTest
     {
+        DataServies ds = new DataServies();
         [Fact]
         public void Zero()
         {
             double x = 0;
             double y = 0;
 
-            double res = DataServies.Formula(x, y);
+            double res = ds.Calculate(x, y);
 
             Assert.Equal(0.5, res, 3);
         }
@@ -21,7 +22,7 @@ namespace Tyuiu.MengAV.Sprint1.Task7.V18.Test
             double x = 1;
             double y = 0;
 
-            double res = DataServies.Formula(x, y);
+            double res = ds.Calculate(x, y);
 
             Assert.Equal(1.569, res, 3);
         }

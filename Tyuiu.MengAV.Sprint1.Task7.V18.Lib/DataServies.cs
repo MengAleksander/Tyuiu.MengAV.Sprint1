@@ -1,8 +1,10 @@
-﻿namespace Tyuiu.MengAV.Sprint1.Task7.V18.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.MengAV.Sprint1.Task7.V18.Lib
 {
-    public class DataServies
+    public class DataServies : ISprint1Task7V18
     {
-        public static double Formula(double x, double y)
+        public double Calculate(double x, double y)
         {
             double sinVal = Math.Sin(x + y);
             double sinSq = sinVal * sinVal;
