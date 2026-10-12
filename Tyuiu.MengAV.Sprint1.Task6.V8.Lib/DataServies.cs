@@ -1,15 +1,18 @@
-﻿namespace Tyuiu.MengAV.Sprint1.Task6.V8.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+using static System.Net.Mime.MediaTypeNames;
+
+namespace Tyuiu.MengAV.Sprint1.Task6.V8.Lib
 {
-    public class DataServies
+    public class DataServies : ISprint1Task6V8
     {
-        public static string Word(string text)
+        public string MoveLetterToEnd(string value)
         {
-            if (string.IsNullOrWhiteSpace(text))
+            if (string.IsNullOrWhiteSpace(value))
             {
                 return string.Empty;
             }
 
-            string[] words = text.Split(' ',StringSplitOptions.RemoveEmptyEntries);
+            string[] words = value.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
             for (int i = 0; i < words.Length; i++)
             {

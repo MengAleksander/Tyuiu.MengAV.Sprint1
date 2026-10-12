@@ -1,15 +1,17 @@
+using Newtonsoft.Json.Linq;
 using Tyuiu.MengAV.Sprint1.Task6.V8.Lib;
 
 namespace Tyuiu.MengAV.Sprint1.Task6.V8.Test
 {
     public class DataServiesTest
     {
+        DataServies ds = new DataServies();
         [Fact]
         public void MovesWord()
         {
-            string text = "Мама мыла раму";
+            string value = "Мама мыла раму";
 
-            string res = DataServies.Word(text);
+            string res = ds.MoveLetterToEnd(value);
 
             Assert.Equal("амаМ ылам амур", res);
         }
@@ -17,17 +19,17 @@ namespace Tyuiu.MengAV.Sprint1.Task6.V8.Test
         [Fact]
         public void NoMovesCar()
         {
-            string result = DataServies.Word("А я");
+            string res = ds.MoveLetterToEnd("А я");
 
-            Assert.Equal("А я", result);
+            Assert.Equal("А я", res);
         }
 
         [Fact]
         public void Void()
         {
-            string result = DataServies.Word("");
+            string res = ds.MoveLetterToEnd("");
 
-            Assert.Equal(string.Empty, result);
+            Assert.Equal(string.Empty, res);
         }
     }
 }
