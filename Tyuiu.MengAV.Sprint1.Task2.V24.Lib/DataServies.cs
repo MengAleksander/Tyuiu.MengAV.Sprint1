@@ -1,10 +1,12 @@
-﻿namespace Tyuiu.MengAV.Sprint1.Task2.V24.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.MengAV.Sprint1.Task2.V24.Lib
 {
-    public class DataServies
+    public class DataServies : ISprint1Task2V24
     {
-        public static int Kvadrat(int x, int y)
+        public int CalculateDiffSquare(int value, int valueTwo)
         {
-            int res = x - y;
+            int res = value - valueTwo;
             return res * res;
         }
     }
