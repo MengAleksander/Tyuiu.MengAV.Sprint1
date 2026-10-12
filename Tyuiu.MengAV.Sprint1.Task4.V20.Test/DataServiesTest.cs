@@ -4,13 +4,14 @@ namespace Tyuiu.MengAV.Sprint1.Task4.V20.Test
 {
     public class DataServiesTest
     {
+        DataServies ds = new DataServies();
         [Fact]
         public void Test1()
         {
             double x = 1;
             double y = 2;
 
-            double result = DataServies.Formula(x, y);
+            double result = ds.Calculate(x, y);
 
             Assert.Equal(2.0d, result, 3);
         }
@@ -21,7 +22,7 @@ namespace Tyuiu.MengAV.Sprint1.Task4.V20.Test
             double x = Math.Sqrt(2);
             double y = 0;
 
-            Assert.Throws<DivideByZeroException>(() => DataServies.Formula(x, y));
+            Assert.Throws<DivideByZeroException>(() => ds.Calculate(x, y));
         }
     }
 }

@@ -1,8 +1,10 @@
-﻿namespace Tyuiu.MengAV.Sprint1.Task4.V20.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.MengAV.Sprint1.Task4.V20.Lib
 {
-    public class DataServies
+    public class DataServies : ISprint1Task4V20
     {
-        public static double Formula(double x, double y)
+        public double Calculate(double x, double y)
         {
             double znam = Math.Abs(x - Math.Sqrt(2 + Math.Abs(y)));
 
