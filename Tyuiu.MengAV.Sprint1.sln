@@ -11,63 +11,66 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task0.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task0.V8.Test", "Tyuiu.MengAV.Sprint1.Task0.V8.Test\Tyuiu.MengAV.Sprint1.Task0.V8.Test.csproj", "{9CA17114-3ACF-4B5F-8AB8-FE4F72F7CAA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tyuiu.cources.programming.interfaces", "tyuiu.cources.programming.interfaces\tyuiu.cources.programming.interfaces.csproj", "{26A4FCBB-00EA-4CA1-997F-0C46B098BD99}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{A540E66A-8075-404E-A12C-5FAC63C9C5CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task1.V21", "Tyuiu.MengAV.Sprint1.Task1.V21\Tyuiu.MengAV.Sprint1.Task1.V21.csproj", "{29C5E297-71AC-4B24-91A5-16C18CF69ED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task1.V21", "Tyuiu.MengAV.Sprint1.Task1.V21\Tyuiu.MengAV.Sprint1.Task1.V21.csproj", "{29C5E297-71AC-4B24-91A5-16C18CF69ED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task1.V21.Test", "Tyuiu.MengAV.Sprint1.Task1.V21.Test\Tyuiu.MengAV.Sprint1.Task1.V21.Test.csproj", "{F532557F-5DEE-4923-8550-865A742A62FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task1.V21.Test", "Tyuiu.MengAV.Sprint1.Task1.V21.Test\Tyuiu.MengAV.Sprint1.Task1.V21.Test.csproj", "{F532557F-5DEE-4923-8550-865A742A62FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task1.V21.Lib", "Tyuiu.MengAV.Sprint1.Task1.V21.Lib\Tyuiu.MengAV.Sprint1.Task1.V21.Lib.csproj", "{2ECEDC85-D285-428B-B012-E6D9F00B734E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task1.V21.Lib", "Tyuiu.MengAV.Sprint1.Task1.V21.Lib\Tyuiu.MengAV.Sprint1.Task1.V21.Lib.csproj", "{2ECEDC85-D285-428B-B012-E6D9F00B734E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{58B27851-98C2-4A2A-BF5F-2C29FDAE3E84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task2.V24", "Tyuiu.MengAV.Sprint1.Task2.V24\Tyuiu.MengAV.Sprint1.Task2.V24.csproj", "{A36E2DA1-7361-4381-B05F-15254E841A68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task2.V24", "Tyuiu.MengAV.Sprint1.Task2.V24\Tyuiu.MengAV.Sprint1.Task2.V24.csproj", "{A36E2DA1-7361-4381-B05F-15254E841A68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task2.V24.Lib", "Tyuiu.MengAV.Sprint1.Task2.V24.Lib\Tyuiu.MengAV.Sprint1.Task2.V24.Lib.csproj", "{A29E1102-493B-4D53-B87D-6F577A5CE116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task2.V24.Lib", "Tyuiu.MengAV.Sprint1.Task2.V24.Lib\Tyuiu.MengAV.Sprint1.Task2.V24.Lib.csproj", "{A29E1102-493B-4D53-B87D-6F577A5CE116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task2.V24.Test", "Tyuiu.MengAV.Sprint1.Task2.V24.Test\Tyuiu.MengAV.Sprint1.Task2.V24.Test.csproj", "{AAEAD2A8-33BE-418D-8E6D-4AC83C1F71ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task2.V24.Test", "Tyuiu.MengAV.Sprint1.Task2.V24.Test\Tyuiu.MengAV.Sprint1.Task2.V24.Test.csproj", "{AAEAD2A8-33BE-418D-8E6D-4AC83C1F71ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{C325A9B2-88F1-423B-8353-1C92BC5377D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task3.V10", "Tyuiu.MengAV.Sprint1.Task3.V10\Tyuiu.MengAV.Sprint1.Task3.V10.csproj", "{382D1298-8E1A-48FA-BDAA-A37DA52CB6B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task3.V10", "Tyuiu.MengAV.Sprint1.Task3.V10\Tyuiu.MengAV.Sprint1.Task3.V10.csproj", "{382D1298-8E1A-48FA-BDAA-A37DA52CB6B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task3.V10.Lib", "Tyuiu.MengAV.Sprint1.Task3.V10.Lib\Tyuiu.MengAV.Sprint1.Task3.V10.Lib.csproj", "{EBCBF7EA-2BB1-4948-9428-418A33294D3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task3.V10.Lib", "Tyuiu.MengAV.Sprint1.Task3.V10.Lib\Tyuiu.MengAV.Sprint1.Task3.V10.Lib.csproj", "{EBCBF7EA-2BB1-4948-9428-418A33294D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task3.V10.Test", "Tyuiu.MengAV.Sprint1.Task3.V10.Test\Tyuiu.MengAV.Sprint1.Task3.V10.Test.csproj", "{616A953C-EBC7-4710-8E78-8A56CB1770F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task3.V10.Test", "Tyuiu.MengAV.Sprint1.Task3.V10.Test\Tyuiu.MengAV.Sprint1.Task3.V10.Test.csproj", "{616A953C-EBC7-4710-8E78-8A56CB1770F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{02E4C333-F349-4DD0-944D-D80BD95239F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task4.V20", "Tyuiu.MengAV.Sprint1.Task4.V20\Tyuiu.MengAV.Sprint1.Task4.V20.csproj", "{06097C11-9493-4E0A-A4B3-3B16BAD8E0E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task4.V20", "Tyuiu.MengAV.Sprint1.Task4.V20\Tyuiu.MengAV.Sprint1.Task4.V20.csproj", "{06097C11-9493-4E0A-A4B3-3B16BAD8E0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task4.V20.Lib", "Tyuiu.MengAV.Sprint1.Task4.V20.Lib\Tyuiu.MengAV.Sprint1.Task4.V20.Lib.csproj", "{CD78E397-061C-4EB7-8623-8A1D0751B59D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task4.V20.Lib", "Tyuiu.MengAV.Sprint1.Task4.V20.Lib\Tyuiu.MengAV.Sprint1.Task4.V20.Lib.csproj", "{CD78E397-061C-4EB7-8623-8A1D0751B59D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task4.V20.Test", "Tyuiu.MengAV.Sprint1.Task4.V20.Test\Tyuiu.MengAV.Sprint1.Task4.V20.Test.csproj", "{95A8E690-6F7B-48A0-95CD-2855F117E6C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task4.V20.Test", "Tyuiu.MengAV.Sprint1.Task4.V20.Test\Tyuiu.MengAV.Sprint1.Task4.V20.Test.csproj", "{95A8E690-6F7B-48A0-95CD-2855F117E6C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task5", "Task5", "{3E8BB56C-E8CC-4765-B4AA-F0ACC1D916BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task5.V6", "Tyuiu.MengAV.Sprint1.Task5.V6\Tyuiu.MengAV.Sprint1.Task5.V6.csproj", "{BC359747-6399-46C9-974D-1FE2A2424121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task5.V6", "Tyuiu.MengAV.Sprint1.Task5.V6\Tyuiu.MengAV.Sprint1.Task5.V6.csproj", "{BC359747-6399-46C9-974D-1FE2A2424121}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task5.V6.Lib", "Tyuiu.MengAV.Sprint1.Task5.V6.Lib\Tyuiu.MengAV.Sprint1.Task5.V6.Lib.csproj", "{20C2731F-36EB-40CC-93CD-5010416A71E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task5.V6.Lib", "Tyuiu.MengAV.Sprint1.Task5.V6.Lib\Tyuiu.MengAV.Sprint1.Task5.V6.Lib.csproj", "{20C2731F-36EB-40CC-93CD-5010416A71E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task5.V6.Test", "Tyuiu.MengAV.Sprint1.Task5.V6.Test\Tyuiu.MengAV.Sprint1.Task5.V6.Test.csproj", "{09D837A9-27CE-4A9A-84C3-7598F93D4BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task5.V6.Test", "Tyuiu.MengAV.Sprint1.Task5.V6.Test\Tyuiu.MengAV.Sprint1.Task5.V6.Test.csproj", "{09D837A9-27CE-4A9A-84C3-7598F93D4BC8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task6", "Task6", "{EF1CE238-6BAC-4A11-8A20-C85AFBE71F42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task6.V8", "Tyuiu.MengAV.Sprint1.Task6.V8\Tyuiu.MengAV.Sprint1.Task6.V8.csproj", "{C8FBF84C-0927-4F74-BA6F-208A97BAF733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task6.V8", "Tyuiu.MengAV.Sprint1.Task6.V8\Tyuiu.MengAV.Sprint1.Task6.V8.csproj", "{C8FBF84C-0927-4F74-BA6F-208A97BAF733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task6.V8.Lib", "Tyuiu.MengAV.Sprint1.Task6.V8.Lib\Tyuiu.MengAV.Sprint1.Task6.V8.Lib.csproj", "{2CE86F01-2777-4D80-95EB-8CC75D62EA11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task6.V8.Lib", "Tyuiu.MengAV.Sprint1.Task6.V8.Lib\Tyuiu.MengAV.Sprint1.Task6.V8.Lib.csproj", "{2CE86F01-2777-4D80-95EB-8CC75D62EA11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task6.V8.Test", "Tyuiu.MengAV.Sprint1.Task6.V8.Test\Tyuiu.MengAV.Sprint1.Task6.V8.Test.csproj", "{1BB586C9-6EEF-43C1-8954-33D45DEB7B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task6.V8.Test", "Tyuiu.MengAV.Sprint1.Task6.V8.Test\Tyuiu.MengAV.Sprint1.Task6.V8.Test.csproj", "{1BB586C9-6EEF-43C1-8954-33D45DEB7B4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{5CE90F9F-F67A-47E9-B5C0-85B484A6843E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task7.V18", "Tyuiu.MengAV.Sprint1.Task7.V18\Tyuiu.MengAV.Sprint1.Task7.V18.csproj", "{533807D4-5598-48E7-AB69-BD591B4926C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task7.V18", "Tyuiu.MengAV.Sprint1.Task7.V18\Tyuiu.MengAV.Sprint1.Task7.V18.csproj", "{533807D4-5598-48E7-AB69-BD591B4926C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task7.V18.Lib", "Tyuiu.MengAV.Sprint1.Task7.V18.Lib\Tyuiu.MengAV.Sprint1.Task7.V18.Lib.csproj", "{A7A3B884-EA6F-4A0A-956C-7B7DFE24AB0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task7.V18.Lib", "Tyuiu.MengAV.Sprint1.Task7.V18.Lib\Tyuiu.MengAV.Sprint1.Task7.V18.Lib.csproj", "{A7A3B884-EA6F-4A0A-956C-7B7DFE24AB0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MengAV.Sprint1.Task7.V18.Test", "Tyuiu.MengAV.Sprint1.Task7.V18.Test\Tyuiu.MengAV.Sprint1.Task7.V18.Test.csproj", "{7764B4BA-02FC-4D01-8A3D-EDA29939C940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MengAV.Sprint1.Task7.V18.Test", "Tyuiu.MengAV.Sprint1.Task7.V18.Test\Tyuiu.MengAV.Sprint1.Task7.V18.Test.csproj", "{7764B4BA-02FC-4D01-8A3D-EDA29939C940}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{F727E112-C7DA-4624-82A8-B533ACBDB6F5}"
+	ProjectSection(SolutionItems) = preProject
+		TXT.txt = TXT.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,10 +90,6 @@ Global
 		{9CA17114-3ACF-4B5F-8AB8-FE4F72F7CAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CA17114-3ACF-4B5F-8AB8-FE4F72F7CAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CA17114-3ACF-4B5F-8AB8-FE4F72F7CAA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26A4FCBB-00EA-4CA1-997F-0C46B098BD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26A4FCBB-00EA-4CA1-997F-0C46B098BD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26A4FCBB-00EA-4CA1-997F-0C46B098BD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26A4FCBB-00EA-4CA1-997F-0C46B098BD99}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29C5E297-71AC-4B24-91A5-16C18CF69ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{29C5E297-71AC-4B24-91A5-16C18CF69ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C5E297-71AC-4B24-91A5-16C18CF69ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -183,7 +182,6 @@ Global
 		{1AE9C368-D712-4C7D-AA77-3FD35E460A70} = {8CF70905-D37F-41F8-BEE2-4DB876EC4FB2}
 		{E6595428-8DDF-40EC-8DF3-DDC067980E81} = {8CF70905-D37F-41F8-BEE2-4DB876EC4FB2}
 		{9CA17114-3ACF-4B5F-8AB8-FE4F72F7CAA2} = {8CF70905-D37F-41F8-BEE2-4DB876EC4FB2}
-		{26A4FCBB-00EA-4CA1-997F-0C46B098BD99} = {8CF70905-D37F-41F8-BEE2-4DB876EC4FB2}
 		{29C5E297-71AC-4B24-91A5-16C18CF69ED0} = {A540E66A-8075-404E-A12C-5FAC63C9C5CB}
 		{F532557F-5DEE-4923-8550-865A742A62FA} = {A540E66A-8075-404E-A12C-5FAC63C9C5CB}
 		{2ECEDC85-D285-428B-B012-E6D9F00B734E} = {A540E66A-8075-404E-A12C-5FAC63C9C5CB}
